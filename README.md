@@ -1,9 +1,12 @@
 # Currency Converter
 
-## A simple and intuitive currency converter built using JavaScript. This tool allows users to convert amounts between different currencies based on real-time exchange rates.
+### A simple and intuitive currency converter built using JavaScript. 
+### Responsive frontend with simple HTML & CSS
+### This tool allows users to convert amounts between different currencies based on real-time exchange rates.
+---
 Features
 
-    Real-Time Exchange Rates: Fetches the latest exchange rates from a reliable API.
+    Real-Time Exchange Rates: Fetches the latest exchange rates from a exchange-rate API.
     Multiple Currencies: Supports conversion between a wide range of currencies, including USD, EUR, GBP, INR, and more.
     Responsive Design: User-friendly interface that works on both desktop and mobile devices.
     Instant Conversion: Conversion results are displayed instantly as the user inputs the amount or changes currencies.
