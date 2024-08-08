@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e69de6;
+}
+
+.converter-container{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px, 4px, 8px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    padding: 24px 30px;
+    text-align: center;
+}
+
+.converter-container h1 {
+    font-size: 28px;
+    text-decoration: underline;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.converter-container .input-container{
+    border: 2px solid #bbbbbd;
+    border-radius: 4px;
+    margin-block: 20px;
+}
+
+.converter-container .input-container:focus-within{
+    border-color: darkblue;
+}
+.converter-container .input-container input,
+.converter-container .input-container select{
+    width: 150px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.converter-container .arrow{
+    transform: rotate(90deg);
+    font-size: 40px;
+}
+
+.converter-container .result{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Responsove code */
+@media screen and (max-width:440px){
+    .converter-container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .converter-container h1{
+        font-size: 22px;
+    }
+    .converter-container .input-container{
+        border: none;
+    }
+    .converter-container .input-container input,
+    .converter-container .input-container select{
+        border: 1px solid #ccc;
+        margin-block: 4px;
+        width: 100px;
+    }
+}
